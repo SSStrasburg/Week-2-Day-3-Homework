@@ -1,0 +1,37 @@
+
+body {
+
+    /* DO NOT CHANGE THESE */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.container{
+  width: $bodyContainerWidth;
+  display: $bodyContainerDisplay;
+}
+
+// /* Group of ARTICLEs 1-6 */
+section main{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: $sectionMainDefultWidth;
+  align-items:center;
+}
+.posts {
+        color: #444444;
+      }
+
+//      /* Indiviudal ARTICLEs 1-6 */
+section main article{
+  flex: 0 0 $sectionMainArticle;
+  margin: 2%;
+  width: $mainIndividualArticleWidth;
+}
+.posts article {
+
+          /* DO NOT CHANGE THESE */
+          background-color: #dddddd;
+          border: 1px solid #444444;
+          height: 10em; /* this is just so we can see the articles since they have no content */
+      }

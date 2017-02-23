@@ -1,0 +1,21 @@
+
+footer {
+
+    /* DO NOT CHANGE THESE */
+      background-color: #444444;
+      color: #eeeeee;
+
+      border: 1px solid $footerbackgroundColor;
+      width: 100%;
+      border-radius: 0 0 1em 1em;
+    }
+    footer nav{
+      width: $footerNavWidth;
+      margin-left: $footerNavMargin;
+    }
+
+    p{
+      width: $footerPTextWidth;
+      font-size: 80%;
+      margin-left: $footerPTextMarginLeft;
+    }

@@ -1,0 +1,66 @@
+
+
+.hamburger{
+  align-items: flex-end;
+}
+
+.fa-bars{
+  color: rgb(22,100,100);
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+  text-align: right;
+  width: 1em;
+}
+
+.hamburger:active{
+  color:  rgb(0 200 200)
+}
+
+aside .hamburger {
+  text-align: right;
+}
+
+.fa-bars:active{
+  color: rgb(200, 30, 30);
+  transform: rotate(90deg);
+}
+
+
+header{
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.hero {
+  /* DO NOT CHANGE THESE */
+  background-color: #444444;
+}
+
+.hero h1 {
+  /* DO NOT CHANGE THESE */
+  color: #ffffff;
+  width: $headerH1TextBoxWidth;
+  font-size: $headerH1TextSize;;
+  padding-top: $headerH1TextBoxPadding;;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0 $headerUlBoxWidth;
+  margin: 0 0 0 0;
+
+}
+
+header li:hover{
+  color: rgb (200, 30, 30);
+}
+
+header ul li{
+  flex: 0 0 $headerNavListItemWidthSizes;
+  margin-right: 1em;
+  padding-bottom: .5em;
+}

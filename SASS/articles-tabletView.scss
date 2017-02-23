@@ -1,0 +1,74 @@
+@media screen and (min-width: 35em) {
+
+
+
+.fa-bars{
+  display: none;
+}
+
+/*These are the changes to the header*/
+.hero h1 {
+          padding: $headerH1TextBoxPadding * 3;
+        }
+
+
+
+header ul li{
+            flex: 0 0 $headerNavListItemWidthSizes * (3/7);
+        }
+        /*This is the chnge to the header*/
+
+/*BODY Changes*/
+
+/* Body around Articles and Sections */
+
+
+
+  section main{
+    justify-content: center;
+    width: $sectionMainDefultWidth * 80%;
+    justify-content: space-around;
+              }
+
+  .posts {
+          margin: auto;
+        }
+
+        /* Indiviudal ARTICLEs 1-6 */
+  section main article{
+    flex: 0 0 $sectionMainArticle * 45%;
+    width: $mainIndividualArticleWidth * 70%
+                      }
+
+
+  /* SIDEBAR GROUP 1-3 */
+  aside{
+    flex-direction: row; //$asideFlexDirection=row;
+
+    justify-content: space-around;
+        }
+
+
+  .sidebar section {
+
+      width: $sidebarSectionWidth / 4;
+                  }
+
+
+
+/*Footer Changes*/
+
+footer{
+  display: flex;
+  justify-content: flex-start;
+
+      }
+
+
+p{
+  width: $footerPTextWidth / 2;
+
+  }
+/*Footer Changes*/
+
+}
