@@ -7,7 +7,7 @@ body {
 
 .container{
   width: $bodyContainerWidth;
-  display: $bodyContainerDisplay;
+  display: inline-block;
 }
 
 // /* Group of ARTICLEs 1-6 */
@@ -23,7 +23,7 @@ section main{
       }
 
 //      /* Indiviudal ARTICLEs 1-6 */
-section main article{
+main article{
   flex: 0 0 $sectionMainArticle;
   margin: 2%;
   width: $mainIndividualArticleWidth;

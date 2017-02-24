@@ -1,0 +1,16 @@
+
+
+.fa-bars{
+  display: none;
+}
+
+/*These are the changes to the header*/
+.hero h1 {
+          padding: ($headerH1TextBoxPadding * 3);
+        }
+
+
+
+header ul li {
+            flex: 0 0 ($headerNavListItemWidthSizes * (3/7));
+        }

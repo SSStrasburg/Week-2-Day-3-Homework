@@ -1,0 +1,20 @@
+
+
+section main article{
+  flex: 0 0 ($sectionMainArticle * .45);
+  width: ($mainIndividualArticleWidth * .7)
+                    }
+
+
+/* SIDEBAR GROUP 1-3 */
+aside{
+  flex-direction: row;
+
+  justify-content: space-around;
+      }
+
+
+.sidebar section {
+
+    width: ($sidebarSectionWidth / 4);
+                }

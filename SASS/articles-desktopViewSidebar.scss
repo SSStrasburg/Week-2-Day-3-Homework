@@ -1,0 +1,12 @@
+
+
+aside{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sidebar section {
+
+    width: $sidebarSectionWidth;
+}

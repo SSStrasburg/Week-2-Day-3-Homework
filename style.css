@@ -1,75 +1,201 @@
-/*
-Error: wrong number of arguments (1 for 3) for `rgb'
-        on line 17 of SASS/header.scss
-        from line 6 of sass/main.scss
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.hamburger {
+  align-items: flex-end; }
 
-12: @import "articles-desktopView";
+.fa-bars {
+  color: #166464;
+  text-decoration: none;
+  font-size: 3em;
+  transition: transform 1s linear, color 4s linear;
+  text-align: right;
+  width: 1em; }
 
-Backtrace:
-SASS/header.scss:17
-sass/main.scss:6
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:310:in `reformat_argument_error'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:149:in `rescue in _perform'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/funcall.rb:123:in `_perform'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `map'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: wrong number of arguments (1 for 3) for `rgb'\A         on line 17 of SASS/header.scss\A         from line 6 of sass/main.scss\A \A 12: @import \"articles-desktopView\";"; }
+.hamburger:active {
+  color: #00c8c8; }
+
+aside .hamburger {
+  text-align: right; }
+
+.fa-bars:active {
+  color: #c81e1e;
+  transform: rotate(90deg); }
+
+header {
+  width: 100%;
+  border-radius: 1em 1em 0 0; }
+
+.hero {
+  /* DO NOT CHANGE THESE */
+  background-color: #444444; }
+
+.hero h1 {
+  /* DO NOT CHANGE THESE */
+  color: #ffffff;
+  width: 30%;
+  font-size: 1em;
+  padding-top: 1em; }
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0 30%;
+  margin: 0 0 0 0; }
+
+header li:hover {
+  color: #c81e1e; }
+
+header ul li {
+  flex: 0 0 7%;
+  margin-right: 1em;
+  padding-bottom: .5em; }
+
+body {
+  /* DO NOT CHANGE THESE */
+  font-family: Verdana, Arial, sans-serif; }
+
+.container {
+  width: 100%;
+  display: inline-block; }
+
+section main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 96%;
+  align-items: center; }
+
+.posts {
+  color: #444444; }
+
+main article {
+  flex: 0 0 100%;
+  margin: 2%;
+  width: 100%; }
+
+.posts article {
+  /* DO NOT CHANGE THESE */
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 10em;
+  /* this is just so we can see the articles since they have no content */ }
+
+/* SIDEBAR GROUP 1-3 */
+aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  height: 100%;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.sidebar {
+  /* DO NOT CHANGE THESE */
+  background-color: #aaaaaa;
+  color: #444444; }
+
+.sidebar section {
+  /* DO NOT CHANGE THESE */
+  background-color: #dddddd;
+  border: 1px solid #444444;
+  height: 10em;
+  /* this is just so we can see the articles since they have no content */
+  margin-top: 1em;
+  width: 100%; }
+
+/* Indiviudal Sidebars 1-3 */
+aside section {
+  margin-bottom: 1em; }
+
+footer {
+  /* DO NOT CHANGE THESE */
+  background-color: #444444;
+  color: #eeeeee;
+  border: 1px solid blue;
+  width: 100%;
+  border-radius: 0 0 1em 1em; }
+
+footer nav {
+  width: 50%;
+  margin-left: 2em; }
+
+p {
+  width: 100%;
+  font-size: 80%;
+  margin-left: 2em; }
+
+@media screen and (min-width: 35em) {
+  .fa-bars {
+    display: none; }
+
+  /*These are the changes to the header*/
+  .hero h1 {
+    padding: 3em; }
+
+  header ul li {
+    flex: 0 0 3%; }
+
+  section main {
+    justify-content: center;
+    width: 76.8%;
+    justify-content: space-around; }
+
+  .posts {
+    margin: auto; }
+
+  section main article {
+    flex: 0 0 45%;
+    width: 70%; }
+
+  /* SIDEBAR GROUP 1-3 */
+  aside {
+    flex-direction: row;
+    justify-content: space-around; }
+
+  .sidebar section {
+    width: 25%; }
+
+  footer {
+    display: flex;
+    justify-content: flex-start; }
+
+  p {
+    width: 50%; } }
+@media screen and (min-width: 70em) {
+  header ul {
+    flex: 0 0 10%; }
+
+  section {
+    display: flex; }
+
+  .container {
+    width: 92%;
+    display: flex; }
+
+  /* Group of ARTICLEs 1-6 */
+  section main {
+    justify-content: center;
+    width: 76.8%;
+    justify-content: space-around; }
+
+  /* Indiviudal ARTICLEs 1-6 */
+  section main article {
+    flex: 0 0 45%;
+    width: 70%; }
+
+  aside {
+    display: flex;
+    flex-direction: column; }
+
+  .sidebar section {
+    width: 100%; }
+
+  footer {
+    display: flex;
+    justify-content: flex-start; }
+
+  p {
+    width: 50%; } }
+
+/*# sourceMappingURL=style.css.map */

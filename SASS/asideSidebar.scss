@@ -2,7 +2,7 @@
 /* SIDEBAR GROUP 1-3 */
 aside{
   display: flex;
-  flex-direction: $asideFlexDirection;
+  flex-direction: column;
   flex: 0 0 $asideFlexWidth;
   height: 100%;
   padding-left: 1em;

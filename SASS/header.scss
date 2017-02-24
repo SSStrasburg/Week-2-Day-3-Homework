@@ -5,7 +5,7 @@
 }
 
 .fa-bars{
-  color: rgb(22,100,100);
+  color: rgb(22, 100, 100);
   text-decoration: none;
   font-size: 3em;
   transition: transform 1s linear, color 4s linear;
@@ -14,7 +14,7 @@
 }
 
 .hamburger:active{
-  color:  rgb(0 200 200)
+  color: rgb(0, 200, 200)
 }
 
 aside .hamburger {
@@ -41,8 +41,8 @@ header{
   /* DO NOT CHANGE THESE */
   color: #ffffff;
   width: $headerH1TextBoxWidth;
-  font-size: $headerH1TextSize;;
-  padding-top: $headerH1TextBoxPadding;;
+  font-size: $headerH1TextSize;
+  padding-top: $headerH1TextBoxPadding;
 }
 
 header ul{
@@ -56,7 +56,7 @@ header ul{
 }
 
 header li:hover{
-  color: rgb (200, 30, 30);
+  color: rgb(200, 30, 30);
 }
 
 header ul li{

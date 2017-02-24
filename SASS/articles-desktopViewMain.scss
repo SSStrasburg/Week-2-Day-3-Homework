@@ -1,0 +1,21 @@
+
+
+.container{
+  width: ($bodyContainerWidth * (92 / 100));
+  display: flex;
+
+}
+
+/* Group of ARTICLEs 1-6 */
+section main{
+  justify-content: center;
+  width: ($sectionMainDefultWidth * .8);
+  justify-content: space-around;
+
+}
+
+      /* Indiviudal ARTICLEs 1-6 */
+section main article{
+  flex: 0 0 ($sectionMainArticle * .45);
+  width: ($mainIndividualArticleWidth * .70);
+}
